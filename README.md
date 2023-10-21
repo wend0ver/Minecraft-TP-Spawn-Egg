@@ -14,6 +14,6 @@ Run the command and save it to your horbar
 Go into server and load your hotbar
 
 #
-#Made by wend0ver
-#Discord: wend0ver
-#Minecraft: wendover
+# Made by wend0ver
+# Discord: wend0ver
+# Minecraft: wendover
