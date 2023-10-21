@@ -13,7 +13,7 @@ Run the command and save it to your horbar
 # Stpe 4
 Go into server and load your hotbar
 
-# Info & Other
-You need to be in creative on the server in order to get the item
-Some servers have anti-NBT plugins so may not work
-If admin has disabled spawn eggs, put it in a dispenser and power it
+Made by wend0ver
+
+Discord: wend0ver
+Minecraft: wendover
