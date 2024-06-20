@@ -23,8 +23,8 @@ try:
         int_array = uuid_to_int_array(uuid)
 
         # Create the formatted string
-        formatted_string = f"/give @p allay_spawn_egg{{EntityTag:{{id:ender_pearl,LeftOwner:1b,Owner:[I; {int_array[0]}, {int_array[1]}, {int_array[2]}, {int_array[3]} ]}},display:{{Name:'[{{\"text\":\"/tp {user}\",\"italic\":false}}]'}}}} 64"
-        print("Formatted string:")
+        formatted_string = f"/give @p allay_spawn_egg[minecraft:entity_data={{id:ender_pearl,LeftOwner:1b,Owner:[I; {int_array[0]}, {int_array[1]}, {int_array[2]}, {int_array[3]} ]}},minecraft:item_name='[{{\"text\":\"/tp {user}\",\"italic\":false}}]']"
+        print("Command:")
         print(formatted_string)
     else:
         error = data["error"]
@@ -32,5 +32,5 @@ try:
 except Exception as e:
     print("An error occurred:", e)
 
-while (1 == 1):
+while (True):
     time.sleep(1)
